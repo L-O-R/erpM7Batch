@@ -1,0 +1,2 @@
+JOhn|Manager|20000|2000|As01
+Alice|Staff|15000|As02
