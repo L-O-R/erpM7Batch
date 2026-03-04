@@ -1,4 +1,4 @@
-# phase 1 employees bluepring creation
+# phase 1 employees blueprint creation
 from abc import ABC, abstractmethod
 
 
@@ -24,7 +24,6 @@ class Employee(Entity):
     @property
     def emp_id(self):
         return self.__emp_id
-
     # getter and setter for salary
     @property
     def salary(self):
@@ -44,8 +43,6 @@ class Employee(Entity):
         return self.get_details()
     def __eq__(self, other):
         return self.__emp_id == other.emp_id
-
-emp1 = Employee('E01', 'John', "Manager", 14000.00)
 
 
 #3. THe manager Class(Inherits From Employee)
