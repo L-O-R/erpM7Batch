@@ -1,5 +1,5 @@
 import sys
-
+from EmployessMenu import manage_employees
 def run_system():
     # 1. The Storage
     # Using Dictionary
@@ -45,6 +45,9 @@ def run_system():
         choice = input("Please enter your choice: ").strip()
         if choice == "1":
             print("------ Employee Management Loading.....")
+            print()
+            manage_employees(employees)
+            input("Please Press Enter to Continue").strip()
         elif choice == "2":
             print("------ Asset Management Loading.....")
         elif choice == "3":
@@ -54,18 +57,5 @@ def run_system():
             break
         else:
             print("Please enter a valid choice 1 to 4 only in numeric form")
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 run_system()
