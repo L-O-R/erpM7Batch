@@ -48,6 +48,9 @@ class Employee(Entity):
     def get_details(self):
         return f'ID: {self.__emp_id} | Name: {self.__name} | Role: {self.__role} | Salary: {self.__salary}'
 
+    def assign_assets(self, asts: object):
+        self.assets.append(asts)
+
     # Dunder method: Making our object behave like real data
     def __str__(self):
         return self.get_details()

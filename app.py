@@ -1,4 +1,6 @@
 import sys
+
+from AssetsMenu import manage_assets
 from EmployessMenu import manage_employees
 def run_system():
     # 1. The Storage
@@ -50,6 +52,9 @@ def run_system():
             input("Please Press Enter to Continue").strip()
         elif choice == "2":
             print("------ Asset Management Loading.....")
+            print()
+            manage_assets(assets, employees, asset_ids)
+            input("Please Press Enter to Continue").strip()
         elif choice == "3":
             print("------ Company Financial Loading.....")
         elif choice == "4":
