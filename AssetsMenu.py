@@ -84,7 +84,12 @@ def manage_assets(assets_dict, employee_dict, asset_ids_set):
             print(f"Asset {a_id} assigned  to {emp_data.name}")
             employee_dict[e_id] = emp_data
 
-
+        elif choice == "4":
+            pass
+        elif choice == "5":
+            break
+        else:
+            print("Invalid Choice")
 
 
 

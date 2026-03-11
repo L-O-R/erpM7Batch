@@ -14,6 +14,10 @@ class Asset(Entity):
         return self.__asset_id
 
     @property
+    def name(self):
+        return self.__name
+
+    @property
     def value(self):
         return self.__value
 
