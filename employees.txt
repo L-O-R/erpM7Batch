@@ -1,0 +1,2 @@
+E101|Hello|Manager|123123.0|5000.0
+E102|ada|Staff|123123.0
